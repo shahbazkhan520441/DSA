@@ -6,7 +6,7 @@ public class BubbleDown {
 		int c=0;
 		for(int i=0;i<ar.length-1;i++) {
 			boolean isSwapped=false;
-			for(int j=i-1;j<ar.length;j++) {
+			for(int j=i+1;j<ar.length;j++) {
 				c++;
 				if(ar[j]<ar[i]) {
 					int temp=ar[j];
