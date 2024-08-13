@@ -3,7 +3,7 @@ package insertionsort;
 public class InsertionSort {
 public static void main(String[] args) {
 //	check the previous value and exchange it if it is less then incoming value
-	int ar[]= {10,20,3,13,18,11};
+	int ar[]= {10,2,3,13,18,11};
 	
 	for(int i=0;i<ar.length;i++) {
 		int key=ar[i];
